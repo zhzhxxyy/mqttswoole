@@ -40,3 +40,15 @@ php server.php mqtt:start 即可启动项目
 另外swoole配置中可以开启open_mqtt_protocol，如果开启此功能，发送一条数据几百k时候，
 会被切分成多个消息，可以自己尝试，如果还有什么好的解决方案可发送邮件**zhzhxxyy@126.com**联系我，
 交流合作即可
+
+### 目前实现的功能
+
+主题暂不支持通配符
+qos=1和2未完善
+对连接用户对权限验证未完善
+系统主题：
+    $SYS/broker/log/N 接收上下线通知
+    $SYS/broker/log/M/subscribe 订阅消息
+    $SYS/broker/log/M/unsubscribe 取消订阅消息
+
+
