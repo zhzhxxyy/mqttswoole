@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="55ec3d09-c46a-4d32-af80-2de417b9784d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Application.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Config/database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Config/listeners.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Config/redis.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Config/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Config/servers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Controller/IndexController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Db/BaseModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Db/BaseRedis.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Db/PDO.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Db/Redis.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Events/MqttServer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Events/WebSocket.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Listener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Listens/Pool.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Protocol/MQTT.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Protocol/MqttInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Protocol/SimpleResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Protocol/SimpleRoute.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Route.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Server/HttpServer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Server/MqttServer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Server/WebSocket.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Singleton.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/helpers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install/mqtt.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/.scrutinizer.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Builder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Claim.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Claim/Basic.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Claim/EqualsTo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Claim/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Claim/GreaterOrEqualsTo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Claim/LesserOrEqualsTo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Claim/Validatable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Parser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Parsing/Decoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Parsing/Encoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Signature.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Signer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Signer/BaseSigner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Signer/Ecdsa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Signer/Ecdsa/MultibyteStringConverter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Signer/Ecdsa/Sha256.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Signer/Ecdsa/Sha384.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Signer/Ecdsa/Sha512.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Signer/Ecdsa/SignatureConverter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Signer/Hmac.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Signer/Hmac/Sha256.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Signer/Hmac/Sha384.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Signer/Hmac/Sha512.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Signer/Key.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Signer/Keychain.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Signer/OpenSSL.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Signer/Rsa.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Signer/Rsa/Sha256.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Signer/Rsa/Sha384.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Signer/Rsa/Sha512.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/Token.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/src/ValidationData.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/functional/EcdsaTokenTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/functional/HmacTokenTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/functional/Keys.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/functional/RFC6978VectorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/functional/RsaTokenTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/functional/UnsignedTokenTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/functional/ecdsa/private.key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/functional/ecdsa/private2.key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/functional/ecdsa/public1.key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/functional/ecdsa/public2.key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/functional/ecdsa/public3.key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/functional/rsa/encrypted-private.key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/functional/rsa/encrypted-public.key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/functional/rsa/private.key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/functional/rsa/public.key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/BuilderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Claim/BasicTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Claim/EqualsToTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Claim/FactoryTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Claim/GreaterOrEqualsToTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Claim/LesserOrEqualsToTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/ParserTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Parsing/DecoderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Parsing/EncoderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/SignatureTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Signer/BaseSignerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Signer/Ecdsa/MultibyteStringConverterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Signer/Ecdsa/Sha256Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Signer/Ecdsa/Sha384Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Signer/Ecdsa/Sha512Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Signer/EcdsaTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Signer/Hmac/Sha256Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Signer/Hmac/Sha384Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Signer/Hmac/Sha512Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Signer/HmacTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Signer/KeyTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Signer/KeychainTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Signer/Rsa/Sha256Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Signer/Rsa/Sha384Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Signer/Rsa/Sha512Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/Signer/RsaTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/TokenTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/lcobucci/jwt/test/unit/ValidationDataTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/.hhconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/FastRoute.hhi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/phpunit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/psalm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/src/BadRouteException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/src/DataGenerator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/src/DataGenerator/CharCountBased.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/src/DataGenerator/GroupCountBased.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/src/DataGenerator/GroupPosBased.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/src/DataGenerator/MarkBased.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/src/DataGenerator/RegexBasedAbstract.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/src/Dispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/src/Dispatcher/CharCountBased.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/src/Dispatcher/GroupCountBased.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/src/Dispatcher/GroupPosBased.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/src/Dispatcher/MarkBased.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/src/Dispatcher/RegexBasedAbstract.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/src/Route.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/src/RouteCollector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/src/RouteParser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/src/RouteParser/Std.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/src/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/src/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/test/Dispatcher/CharCountBasedTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/test/Dispatcher/DispatcherTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/test/Dispatcher/GroupCountBasedTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/test/Dispatcher/GroupPosBasedTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/test/Dispatcher/MarkBasedTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/test/HackTypechecker/HackTypecheckerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/test/HackTypechecker/fixtures/all_options.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/test/HackTypechecker/fixtures/empty_options.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/test/HackTypechecker/fixtures/no_options.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/test/RouteCollectorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/test/RouteParser/StdTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/nikic/fast-route/test/bootstrap.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="PDO.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Db/PDO.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="359" />
+    <option name="y" value="170" />
+    <option name="width" value="1408" />
+    <option name="height" value="715" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mqttswoole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mqttswoole" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55ec3d09-c46a-4d32-af80-2de417b9784d" name="Default" comment="" />
+      <created>1589297721477</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589297721477</updated>
+      <workItem from="1589297723279" duration="40000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="40000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="359" y="170" width="1408" height="715" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/App/Db/PDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
