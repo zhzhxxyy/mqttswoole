@@ -18,7 +18,7 @@ class MqttServer
     protected $_config;
     protected $_redis;
     protected $_tickId;
-
+    protected $dataList=[];
 
     public function __construct()
     {
@@ -80,6 +80,11 @@ class MqttServer
                 $info = unpack('N', $data);
                 $len = $info[1];
                 $data = substr($data, - $len);
+            }
+            $data = $this->getRealData($fd,$data);
+            //截取对应的数据
+            if($data===false){
+                return ;
             }
             $data = MQTT::decode($data);
             if (is_array($data) && isset($data['cmd'])) {
@@ -163,6 +168,21 @@ class MqttServer
         }
     }
 
+    //解决tcp粘包问题
+    private function getRealData($fd,$data){
+        global $dataList;
+        if(isset($dataList[$fd])){
+            $data=$dataList[$fd].$data;
+        }
+        $check = MQTT::input($data);
+        if($check==0){
+            $dataList[$fd]=$data;
+            return false;
+        }
+        unset($dataList[$fd]);
+        return $data;
+    }
+
     public function onTask($serv, $task_id, $from_id, $data){
         //异步任务发送数据
         $data=json_decode($data,true);
@@ -195,6 +215,8 @@ class MqttServer
     public function onClose($server, $fd)
     {
         echo "connection close: {$fd}\n";
+        global $dataList;
+        unset($dataList[$fd]);
         $redis = new \App\Db\BaseRedis();
         $client = $redis->get(REDIS_PREF.MQTT_TAG.$fd);
         if($client){
